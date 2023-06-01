@@ -1,0 +1,9 @@
+{
+    "name": "826ab9f0c2c424b407326bdb89b4c0b1",
+    "description": "Geekbench5 frequency native messaging host",
+    "path": "./geekbench5.py",
+    "type": "stdio",
+    "allowed_origins": [
+        "https://browser.geekbench.com/v5/cpu/*"
+    ]
+}

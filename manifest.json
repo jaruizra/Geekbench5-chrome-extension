@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Geekbench5_frequency",
+  "version": "1.0",
+  "description": "Adds frecuency data to geekbench5",
+  "permissions": ["activeTab", "downloads"],
+  "content_scripts": [
+    {
+      "matches": ["https://browser.geekbench.com/v5/cpu/*"],
+      "js": ["script_web.js"]
+    }
+  ]
+}
